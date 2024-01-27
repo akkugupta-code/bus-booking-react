@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.noBooking {
+    margin-left: 40vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboardTable {
+    margin-left: 10vw;
+    width: 80vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.seat{
+    background-color: white;
+    border: 1px solid black;
+    height: 30px;
+    width:60px;
+    margin: 10px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pillow{
+    border: 1px solid black;
+    height: 5px;
+    width:5px;
+    height: 25px;
+    width: 8px;
+    position: relative;
+    margin-left: 48px;
 }
-
-.App-link {
-  color: #61dafb;
+.mainseat{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 50px;
+    row-gap: 25px;
+    margin-left: 50px;
+    border-left: 1px solid grey;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.deckContainer{
+    background-color: #eeeeee;
+    /* height: 35vh; */
+    /* width: fit-content; */
+    overflow: scroll;
+    border-left: 7px solid grey;
+}
+.driver{
+    padding: 10px;
+    position: absolute;
 }

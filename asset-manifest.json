@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bus-booking-react/static/css/main.0f43545f.css",
+    "main.js": "/bus-booking-react/static/js/main.a59db164.js",
+    "static/js/787.915f6dbb.chunk.js": "/bus-booking-react/static/js/787.915f6dbb.chunk.js",
+    "static/media/DriverWheel.svg": "/bus-booking-react/static/media/DriverWheel.3b4f72a1d179aa75d051444c8cd06327.svg",
+    "index.html": "/bus-booking-react/index.html",
+    "main.0f43545f.css.map": "/bus-booking-react/static/css/main.0f43545f.css.map",
+    "main.a59db164.js.map": "/bus-booking-react/static/js/main.a59db164.js.map",
+    "787.915f6dbb.chunk.js.map": "/bus-booking-react/static/js/787.915f6dbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f43545f.css",
+    "static/js/main.a59db164.js"
+  ]
+}

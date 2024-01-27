@@ -4,7 +4,7 @@ import { useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
 
-const pages = ["bus-booking-react/dashboard","bus-booking-react/booking"]
+const pages = ["dashboard","booking"]
 
 
 function NavBar() {
@@ -61,7 +61,7 @@ function NavBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} component={Link}
-                to={`/${page}`}>
+                to={`/bus-booking-react/${page}`}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -72,7 +72,7 @@ function NavBar() {
               <Button
                 key={page}
                 component={Link}
-                to={`/${page}`}
+                to={`/bus-booking-react/${page}`}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}

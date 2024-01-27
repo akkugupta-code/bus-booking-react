@@ -20,7 +20,7 @@ function App() {
       <NavBar></NavBar>
       <Routes>
         <Route
-          path="/"
+          path="/bus-booking-react"
           element={
             <Dashboard
               bookingDetails={bookingDetails}
@@ -29,7 +29,7 @@ function App() {
           }
         />
         <Route
-          path="/dashboard"
+          path="/bus-booking-react/dashboard"
           element={
             <Dashboard
               bookingDetails={bookingDetails}
@@ -38,7 +38,7 @@ function App() {
           }
         />
         <Route
-          path="/booking"
+          path="/bus-booking-react/booking"
           element={
             <Booking
               bookingDetails={bookingDetails}
